@@ -37,7 +37,13 @@ nav a:hover,nav a[aria-current]{color:var(--ink);background:var(--glass)}
 .series p{color:var(--soft);font-size:19px;margin:0 0 26px;max-width:520px}
 .parts{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 30px}
 .parts span{font:600 14px var(--m);letter-spacing:.06em;padding:10px 16px;border-radius:999px;border:1px solid var(--line2);color:var(--soft)}
-.parts span.on{background:var(--lime);border-color:var(--lime);color:#0b1405}
+.parts span.on,.parts a.on{background:var(--lime);border-color:var(--lime);color:#0b1405}
+.parts a{font:600 14px var(--m);letter-spacing:.06em;padding:10px 16px;border-radius:999px;border:1px solid var(--line2);text-decoration:none}
+.guide{margin:0 0 26px;padding-left:1.3em;font-size:19px;line-height:1.55}.guide li{margin:0 0 10px}
+.calc{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:0 0 18px}.calc label{display:flex;flex-direction:column;gap:8px}
+.calc input,.calc select{font:600 22px var(--d,inherit);padding:12px 14px;border-radius:14px;border:1px solid var(--line2);background:rgba(255,255,255,.04);color:var(--ink)}
+.out{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}.out div{border:1px solid var(--line2);border-radius:20px;padding:18px}.out b{display:block;font-size:40px;letter-spacing:-.02em;color:var(--ink)}.out span{font:600 12px var(--m);color:var(--soft);letter-spacing:.06em}
+.syr{position:relative;height:56px;border-radius:14px;border:1px solid var(--line2);margin:18px 0 6px;overflow:hidden;background:repeating-linear-gradient(90deg,transparent 0 calc(10% - 1px),rgba(214,238,247,.25) calc(10% - 1px) 10%)}.syr i{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,rgba(73,200,242,.35),#49c8f2);transition:width .25s}
 .btns{display:flex;gap:10px;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:#05080a;text-decoration:none;font:800 16px var(--d);padding:14px 22px;border-radius:999px;border:0;cursor:pointer}
 .btn.g{background:transparent;color:var(--ink);border:1px solid var(--line2)}
