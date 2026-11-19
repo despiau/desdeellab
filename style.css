@@ -39,6 +39,11 @@ nav a:hover,nav a[aria-current]{color:var(--ink);background:var(--glass)}
 .parts span{font:600 14px var(--m);letter-spacing:.06em;padding:10px 16px;border-radius:999px;border:1px solid var(--line2);color:var(--soft)}
 .parts span.on,.parts a.on{background:var(--lime);border-color:var(--lime);color:#0b1405}
 .parts a{font:600 14px var(--m);letter-spacing:.06em;padding:10px 16px;border-radius:999px;border:1px solid var(--line2);text-decoration:none}
+.vtab{display:grid;gap:14px;margin:8px 0 26px}.vrow{border:1px solid var(--line2);border-radius:24px;padding:20px 22px;background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.01))}
+.vh{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.vh b{font:800 clamp(20px,3.2vw,26px)/1.1 var(--d);letter-spacing:-.02em}.vh strong{font:800 clamp(34px,6vw,52px)/1 var(--d);letter-spacing:-.04em;white-space:nowrap}
+.vbar{height:10px;border-radius:99px;background:rgba(255,255,255,.07);margin:14px 0 12px;overflow:hidden}.vbar i{display:block;height:100%;border-radius:99px}
+.vej{margin:0 0 14px;color:var(--soft);font-size:17px;line-height:1.45}.vmeta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.vmeta span{font-size:15px;line-height:1.35}.vmeta em{display:block;font:600 11px var(--m);letter-spacing:.08em;text-transform:uppercase;color:var(--soft);font-style:normal;margin-bottom:4px}
+@media(max-width:560px){.vmeta{grid-template-columns:1fr 1fr}}
 .guide{margin:0 0 26px;padding-left:1.3em;font-size:19px;line-height:1.55}.guide li{margin:0 0 10px}
 .calc{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:0 0 18px}.calc label{display:flex;flex-direction:column;gap:8px}
 .calc input,.calc select{font:600 22px var(--d,inherit);padding:12px 14px;border-radius:14px;border:1px solid var(--line2);background:rgba(255,255,255,.04);color:var(--ink)}
