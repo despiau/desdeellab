@@ -100,9 +100,9 @@ a.src:hover b{color:var(--cy)}
 .notes h2 em{font:400 1em var(--s);font-style:italic;color:var(--vio)}
 .notes p{color:var(--soft);margin:0 0 24px;max-width:560px;font-size:17px}
 .notes form{display:flex;gap:10px;flex-wrap:wrap;max-width:620px}
-.notes input[type=email]{flex:1 1 260px;min-width:0;font:600 18px var(--d);color:var(--ink);background:rgba(5,7,9,.55);border:1px solid var(--line2);border-radius:999px;padding:15px 22px}
-.notes input[type=email]::placeholder{color:var(--mute)}
-.notes input[type=email]:focus{outline:2px solid var(--cy);border-color:transparent}
+.notes input[type=email],.notes input[type=text]{flex:1 1 260px;min-width:0;font:600 18px var(--d);color:var(--ink);background:rgba(5,7,9,.55);border:1px solid var(--line2);border-radius:999px;padding:15px 22px}
+.notes input[type=email]::placeholder,.notes input[type=text]::placeholder{color:var(--mute)}
+.notes input[type=email]:focus,.notes input[type=text]:focus{outline:2px solid var(--cy);border-color:transparent}
 .notes .ok{display:none;font:400 26px var(--s);font-style:italic;color:var(--lime)}
 .notes.done form{display:none}.notes.done .ok{display:block}
 .notes .fine{font-size:13px;color:var(--mute);margin:14px 0 0}
